@@ -1,0 +1,10 @@
+{
+  "paper_commit": "09bd8e7b4a387607f87c472bf0f9cf54466f50e6",
+  "table_source": "Sections/experiments.tex, tab:main-results",
+  "pdf_sha256": "e2a3839b769fe865d71ef7b0e73f651320e16569380f21ccac5a89caf17f69f0",
+  "notes": [
+    "Means and averages are preserved as printed in the source table.",
+    "CoLA uses MCC x 100. Other task columns use accuracy in percent.",
+    "Unfinished CoLA ablation results are not included."
+  ]
+}

@@ -1,0 +1,330 @@
+[
+  {
+    "name": "GPT-2-XL",
+    "dataset": "GLUE / FP32",
+    "tasks": [
+      "MNLI",
+      "QNLI",
+      "SST-2",
+      "CoLA"
+    ],
+    "rows": [
+      {
+        "method": "MeZO",
+        "values": [
+          38.4,
+          59.2,
+          74.3,
+          20.1,
+          48.0
+        ]
+      },
+      {
+        "method": "MeZO-Adam",
+        "values": [
+          50.8,
+          71.9,
+          91.2,
+          31.6,
+          61.4
+        ]
+      },
+      {
+        "method": "MeZO-SVRG",
+        "values": [
+          49.8,
+          65.5,
+          84.5,
+          25.6,
+          56.4
+        ]
+      },
+      {
+        "method": "LOZO",
+        "values": [
+          42.9,
+          60.6,
+          80.0,
+          18.1,
+          50.4
+        ]
+      },
+      {
+        "method": "HiZOO",
+        "values": [
+          48.4,
+          66.8,
+          88.9,
+          27.9,
+          58.0
+        ]
+      },
+      {
+        "method": "LOREN",
+        "values": [
+          50.6,
+          74.1,
+          89.0,
+          32.9,
+          61.7
+        ]
+      },
+      {
+        "method": "ENGINE",
+        "values": [
+          52.0,
+          77.0,
+          91.8,
+          34.8,
+          63.9
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OPT-2.7B",
+    "dataset": "GLUE / FP32",
+    "tasks": [
+      "MNLI",
+      "QNLI",
+      "SST-2",
+      "CoLA"
+    ],
+    "rows": [
+      {
+        "method": "MeZO",
+        "values": [
+          50.4,
+          75.2,
+          88.7,
+          19.8,
+          58.5
+        ]
+      },
+      {
+        "method": "MeZO-Adam",
+        "values": [
+          45.9,
+          72.3,
+          86.9,
+          28.3,
+          58.4
+        ]
+      },
+      {
+        "method": "MeZO-SVRG",
+        "values": [
+          41.5,
+          59.8,
+          62.9,
+          26.1,
+          47.6
+        ]
+      },
+      {
+        "method": "LOZO",
+        "values": [
+          43.2,
+          59.5,
+          66.2,
+          16.9,
+          46.5
+        ]
+      },
+      {
+        "method": "HiZOO",
+        "values": [
+          50.9,
+          74.7,
+          88.2,
+          22.3,
+          59.0
+        ]
+      },
+      {
+        "method": "LOREN",
+        "values": [
+          54.1,
+          72.6,
+          88.2,
+          28.6,
+          60.9
+        ]
+      },
+      {
+        "method": "ENGINE",
+        "values": [
+          55.5,
+          75.4,
+          91.0,
+          31.0,
+          63.2
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LLaMA-3-8B",
+    "dataset": "SuperGLUE / BF16",
+    "tasks": [
+      "RTE",
+      "BoolQ",
+      "WiC",
+      "CB"
+    ],
+    "rows": [
+      {
+        "method": "MeZO",
+        "values": [
+          59.1,
+          64.0,
+          59.3,
+          71.5,
+          63.5
+        ]
+      },
+      {
+        "method": "MeZO-Adam",
+        "values": [
+          58.7,
+          63.2,
+          57.1,
+          68.9,
+          62.0
+        ]
+      },
+      {
+        "method": "MeZO-SVRG",
+        "values": [
+          58.2,
+          63.1,
+          58.0,
+          64.9,
+          61.1
+        ]
+      },
+      {
+        "method": "LOZO",
+        "values": [
+          57.8,
+          63.6,
+          57.2,
+          71.1,
+          62.4
+        ]
+      },
+      {
+        "method": "HiZOO",
+        "values": [
+          58.2,
+          63.6,
+          59.2,
+          67.1,
+          62.0
+        ]
+      },
+      {
+        "method": "LOREN",
+        "values": [
+          58.4,
+          64.5,
+          58.9,
+          72.4,
+          63.6
+        ]
+      },
+      {
+        "method": "ENGINE",
+        "values": [
+          59.8,
+          66.0,
+          59.8,
+          73.2,
+          64.7
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OPT-13B",
+    "dataset": "SuperGLUE / BF16",
+    "tasks": [
+      "RTE",
+      "BoolQ",
+      "WiC",
+      "CB"
+    ],
+    "rows": [
+      {
+        "method": "MeZO",
+        "values": [
+          59.0,
+          64.4,
+          57.1,
+          72.7,
+          63.3
+        ]
+      },
+      {
+        "method": "MeZO-Adam",
+        "values": [
+          60.8,
+          63.4,
+          55.7,
+          70.2,
+          62.2
+        ]
+      },
+      {
+        "method": "MeZO-SVRG",
+        "values": [
+          59.3,
+          65.2,
+          56.8,
+          69.4,
+          62.7
+        ]
+      },
+      {
+        "method": "LOZO",
+        "values": [
+          58.2,
+          63.4,
+          57.7,
+          68.8,
+          62.0
+        ]
+      },
+      {
+        "method": "HiZOO",
+        "values": [
+          59.5,
+          63.7,
+          57.0,
+          72.7,
+          63.2
+        ]
+      },
+      {
+        "method": "LOREN",
+        "values": [
+          59.5,
+          63.2,
+          57.0,
+          73.7,
+          63.4
+        ]
+      },
+      {
+        "method": "ENGINE",
+        "values": [
+          62.1,
+          65.2,
+          59.0,
+          79.1,
+          66.4
+        ]
+      }
+    ]
+  }
+]
