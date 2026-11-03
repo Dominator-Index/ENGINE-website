@@ -81,7 +81,7 @@ async function loadResults() {
     renderModel(models[0], 0);
     wireTabs('[data-model]', button => renderModel(models[Number(button.dataset.model)], Number(button.dataset.model)));
   } catch {
-    document.getElementById('results-panel').innerHTML = '<p>The results table could not be loaded. Please <a class="text-link" href="assets/ENGINE.pdf">read the main table in the paper</a>.</p>';
+    document.getElementById('results-panel').innerHTML = '<p>The results table could not be loaded. Please <a class="text-link" href="https://arxiv.org/abs/2611.03293">read the main table in the paper</a>.</p>';
   }
 }
 loadResults();
