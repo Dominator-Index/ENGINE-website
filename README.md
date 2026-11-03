@@ -2,6 +2,7 @@
 
 English research project page for **ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning**, NeurIPS 2026.
 
+- Paper: https://arxiv.org/abs/2611.03293
 - Website: https://dominator-index.github.io/ENGINE-website/
 - Official implementation: https://github.com/AI4Science-WestlakeU/ENGINE
 
