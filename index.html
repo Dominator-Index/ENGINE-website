@@ -31,7 +31,7 @@
     <p class="paper-title">Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning</p>
     <p class="hero-summary">Low-dimensional sampling.<br><span>Full-space curvature.</span></p>
     <p class="hero-description">A multiscale approach that brings full-space curvature information into efficient, low-rank updates.</p>
-    <div class="actions"><a class="button primary" href="assets/ENGINE.pdf">Read the paper <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/AI4Science-WestlakeU/ENGINE"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 2 12l6 7m8-14 6 7-6 7M14 3l-4 18"/></svg>Explore the code</a></div>
+    <div class="actions"><a class="button primary" href="https://arxiv.org/abs/2611.03293">Read the paper <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/AI4Science-WestlakeU/ENGINE"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5 2 12l6 7m8-14 6 7-6 7M14 3l-4 18"/></svg>Explore the code</a></div>
   </div>
   <div class="hero-visual">
     <div class="visual-label"><span>ONE MODEL. TWO SCALES.</span><span>01 / 02</span></div>
@@ -106,20 +106,19 @@
   <div class="section-heading split-heading"><div><span class="section-number">04 / THE EVIDENCE</span><h2>Four models.<br>Consistent gains.</h2></div><p>Best reported average score among the evaluated ZO methods on each model.<br>Explore the main results below.</p></div>
   <div class="result-controls"><div class="model-tabs" role="tablist" aria-label="Select a model"><button id="model-tab-0" role="tab" aria-selected="true" aria-controls="results-panel" data-model="0">GPT-2-XL <span>1.5B</span></button><button id="model-tab-1" role="tab" aria-selected="false" aria-controls="results-panel" tabindex="-1" data-model="1">OPT <span>2.7B</span></button><button id="model-tab-2" role="tab" aria-selected="false" aria-controls="results-panel" tabindex="-1" data-model="2">LLaMA-3 <span>8B</span></button><button id="model-tab-3" role="tab" aria-selected="false" aria-controls="results-panel" tabindex="-1" data-model="3">OPT <span>13B</span></button></div><span class="dataset-label" id="dataset-label">GLUE / FP32</span></div>
   <div id="results-panel" role="tabpanel" aria-labelledby="model-tab-0" tabindex="0"><div class="table-scroll" tabindex="0" role="region" aria-label="Results table, scroll horizontally on smaller screens"><table id="results-table"><caption class="sr-only">Main results for GPT-2-XL</caption><thead></thead><tbody></tbody></table></div><div class="results-note"><span>Five-seed means. CoLA: MCC × 100. Other tasks: accuracy (%).</span><span><i class="legend-dot orange"></i>ENGINE <span class="note-separator">·</span> Bold marks the best displayed score, including ties.</span></div></div>
-  <noscript><p>The interactive table requires JavaScript. All results are available in <a href="assets/ENGINE.pdf">the paper</a>.</p></noscript>
+  <noscript><p>The interactive table requires JavaScript. All results are available in <a href="https://arxiv.org/abs/2611.03293">the paper</a>.</p></noscript>
   <figure class="paper-figure convergence"><button class="figure-button" data-zoom="assets/gpt2xl_1x3_valacc.webp" data-caption="Validation accuracy on GPT-2-XL" aria-label="Enlarge the GPT-2-XL convergence curves"><img src="assets/gpt2xl_1x3_valacc.webp" width="2200" height="786" alt="Validation accuracy curves for GPT-2-XL on MNLI, QNLI, and SST-2, comparing ENGINE with six zeroth-order baselines" loading="lazy"></button><figcaption><span>FIGURE 02</span>Validation accuracy on GPT-2-XL across three GLUE tasks.<span class="zoom-hint">Click to enlarge ↗</span></figcaption></figure>
   <div class="efficiency-heading"><h3>Reach the same target sooner.</h3><p>Up to 2.61× forward-query speed-up and 2.58× wall-clock speed-up over LOREN on LLaMA-3-8B / CB, at LOREN’s best accuracy.</p></div>
   <figure class="paper-figure"><button class="figure-button" data-zoom="assets/speedup-convergence.webp" data-caption="Efficiency comparison and LLaMA-3-8B convergence" aria-label="Enlarge the efficiency figure"><img src="assets/speedup-convergence.webp" width="2200" height="708" alt="Forward-query and wall-clock speed-ups over LOREN in four representative settings, alongside validation accuracy on LLaMA-3-8B CB" loading="lazy"></button><figcaption><span>FIGURE 03</span>Efficiency at LOREN’s best accuracy and a representative convergence curve.<span class="zoom-hint">Click to enlarge ↗</span></figcaption></figure>
 </div></section>
-<section class="section wrap citation-section" id="citation"><div class="section-heading"><span class="section-number">05 / BUILD ON THIS WORK</span><h2>A multiscale view<br>of optimization.</h2><p>If ENGINE is useful for your research,<br>please cite our paper.</p><a class="text-link" href="https://github.com/AI4Science-WestlakeU/ENGINE">Official implementation <span aria-hidden="true">↗</span></a></div><div class="citation-box"><div class="citation-top"><span>BIBTEX</span><button id="copy-citation" type="button">Copy citation <span aria-hidden="true">⧉</span></button></div><pre id="bibtex">@inproceedings{ouyang2026engine,
-  title = {ENGINE: Endogenous Variational
-    MultiScale Optimization for Zeroth-Order
-    LLM Fine-Tuning},
-  author = {Ouyang, Zhuoli and Chi, Changxi
-    and Li, Siyuan and Wu, Tailin},
-  booktitle = {Advances in Neural Information
-    Processing Systems},
-  year = {2026}
+<section class="section wrap citation-section" id="citation"><div class="section-heading"><span class="section-number">05 / BUILD ON THIS WORK</span><h2>A multiscale view<br>of optimization.</h2><p>If ENGINE is useful for your research,<br>please cite our <a href="https://arxiv.org/abs/2611.03293">paper</a>.</p><a class="text-link" href="https://github.com/AI4Science-WestlakeU/ENGINE">Official implementation <span aria-hidden="true">↗</span></a></div><div class="citation-box"><div class="citation-top"><span>BIBTEX</span><button id="copy-citation" type="button">Copy citation <span aria-hidden="true">⧉</span></button></div><pre id="bibtex">@misc{ouyang2026engineendogenousvariationalmultiscale,
+      title={ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning},
+      author={Zhuoli Ouyang and Changxi Chi and Siyuan Li and Tailin Wu},
+      year={2026},
+      eprint={2611.03293},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.03293},
 }</pre><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></div></section>
 </main>
 <footer class="site-footer wrap"><a class="brand" href="#">ENGINE<span class="title-dot">.</span></a><p>NeurIPS 2026 · Westlake University · SUSTech · Zhejiang University</p><a href="https://github.com/Dominator-Index/ENGINE-website">Website source ↗</a></footer>
